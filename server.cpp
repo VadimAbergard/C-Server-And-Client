@@ -194,11 +194,7 @@ void createClient(SOCKET server, SOCKADDR_IN clientAddr) {
 }
 
 int main() {
-	string ipAdd;
-	ifstream in("ipAdd.txt");
-	getline(in, ipAdd);
-	in.close();
-	cout << ipAdd << endl;
+	string ipAdd = "127.0.0.1";
 
 	WSADATA WSAData; //data 
 	SOCKET server; //server socket
