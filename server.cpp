@@ -31,6 +31,7 @@ public:
 
 	void clearBuffer() {
 		memset(buffer, 0, sizeof(buffer)); // clear buffer
+	}
 };
 
 class Data {
